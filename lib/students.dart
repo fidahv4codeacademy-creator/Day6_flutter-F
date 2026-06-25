@@ -102,7 +102,7 @@ class Studentprofile extends StatelessWidget {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Krishna'),
+                      Text('Krishna Subhash'),
                       Text('CSE'),
                       Text('Bus No : 8'),
                     ],
