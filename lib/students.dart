@@ -110,18 +110,7 @@ class Studentprofile extends StatelessWidget {
                 ],
               ),
             ),
-            SizedBox(height: 15),
-            Container(
-              padding: EdgeInsets.all(15),
-              decoration: BoxDecoration(
-                border: Border.all(),
-                borderRadius: BorderRadius.circular(15),
-              ),
-              child: Row(
-                children: [
-                  CircleAvatar(radius: 25, child: Icon(Icons.person)),
-                  SizedBox(width: 15),
-                  Column(
+          
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [Text('Aadil'), Text('CSE'), Text('Bus No: 9')],
                   ),
